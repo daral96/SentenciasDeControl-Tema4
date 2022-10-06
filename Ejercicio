@@ -1,0 +1,53 @@
+public static void main (String[] args) {
+  // CONDICIÓN IF
+  int numeroIf = 0;
+  if(numeroIf>0) {
+    system.out.println("es positivo");
+  }
+  else if(numeroIf==0) {
+    system.out.println("es neutro");
+  }
+  else {
+    system.out.println("es negativo");
+  }
+  
+  // CONDICIÓN WHILE
+  int numeroWhile = 0;
+  while(numeroWhile<3) {
+    system.out.println(numeroWhile);
+    numeroWhile++;
+  }
+  
+  // CONDICIÓN DO WHILE
+  int numeroDoWhile = 0;
+  do {
+    system.out.println(numeroDoWhile);
+    numeroDoWhile++;
+  } while(numeroDoWhile<1);
+  
+  // CONDICIÓN FOR
+  int numeroFor;
+  for(numeroFor=0;numeroFor<=3;numeroFor++) {
+    system.out.prinln(numeroFor);
+  }
+  
+  // CONDICIÓN SWITCH
+  string estacion;
+  switch(estacion) {
+    case verano:
+      system.out.println("es verano");
+      break;
+    case invierno:
+      system.out.println("es invierno");
+      break;
+    case primavera:
+      system.out.println("es primavera");
+      break;
+    case otoño:
+      system.out.println("es otoño");
+      break;
+    default:
+      system.out.println("no es una estación);
+  }
+
+}
